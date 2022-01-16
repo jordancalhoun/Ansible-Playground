@@ -6,7 +6,7 @@ Vagrant.configure(2) do |config|
   
   #Create the vm. 
 	config.vm.define "app1" do |app|
-	  app.vm.hostname = "orc-app1.test"
+	  app.vm.hostname = "ansible-playground"
 	  app.vm.network :private_network, ip: "192.168.60.10"
 	end
 end
