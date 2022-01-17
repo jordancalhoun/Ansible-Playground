@@ -9,7 +9,7 @@ Repo for my default Ansible &amp; Vagrant configurations for a Ansible playgroun
 3. `cd` into repo
 4. Run `vagrant up intel` for x86 architecture, `vagrant up arm` for ARM.
 5. Create desired plays in `playbook.yml`
-6. Run `ansible-playbook -i inventory playbook.yml`
+6. Run `ansible-playbook -i inventory.yml playbook.yml`
 
 You now have a Ansible ready VM at `192.168.60.10`
 
