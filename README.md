@@ -4,15 +4,14 @@ Repo for my default Ansible &amp; Vagrant configurations for a Ansible playgroun
 
 ## Setup
 
-1. If Running a Mac with Apple ARM architecture, first follow [this gist](https://gist.github.com/sbailliez/f22db6434ac84eccb6d3c8833c85ad92)
+1. If running a Mac with Apple ARM architecture, first follow [this gist](https://gist.github.com/sbailliez/f22db6434ac84eccb6d3c8833c85ad92)
 2. Clone Repo
 3. `cd` into repo
-4. Run 'vagrant up'
+4. Run `vagrant up intel` for x86 architecture, `vagrant up arm` for ARM.
 5. Create desired plays in `playbook.yml`
 6. Run `ansible-playbook -i inventory playbook.yml`
 
 You now have a Ansible ready VM at `192.168.60.10`
-ansi
 
 ---
 
